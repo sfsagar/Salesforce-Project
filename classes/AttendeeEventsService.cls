@@ -32,7 +32,7 @@ public with sharing class AttendeeEventsService {
     ];
     return eventLists;
   }
-
+//Test github
   @AuraEnabled
   public static List<Event_Attendee__c> pastEvents(String attendeeId) {
     List<Event_Attendee__c> eventLists = [
